@@ -1,0 +1,8 @@
+os: linux
+dist: bionic
+language: shell
+services: docker
+
+script:
+  - make NG=1.18.0
+  - make NG=1.19.2

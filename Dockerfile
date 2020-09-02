@@ -1,0 +1,3 @@
+ARG NG_VERSION
+FROM nginx:${NG_VERSION}-alpine
+EXPOSE 80 443
